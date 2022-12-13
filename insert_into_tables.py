@@ -68,3 +68,4 @@ if insert_data.conn is not None:
 
     insert_data.add_item_sales(1, 200, 1)
     
+    insert_data.conn.close()
