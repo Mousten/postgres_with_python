@@ -53,4 +53,6 @@ if __name__ == '__main__':
         update_table.update_supplier_name('Hill Corporation', 1)
 
         print(UpdateDatabaseTables.__doc__)
+        
+        update_table.conn.close()
 
