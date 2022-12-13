@@ -126,3 +126,5 @@ if __name__ == '__main__':
         print(DatabaseInstance.__doc__)
     else:
         exit()
+        
+sales_db.conn.close()
